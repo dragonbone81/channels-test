@@ -70,7 +70,7 @@ MESSAGE_TYPES_LIST = [
 SECRET_KEY = 'imasecret'
 DEBUG = False
 ALLOWED_HOSTS = []
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
